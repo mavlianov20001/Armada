@@ -1,0 +1,95 @@
+.about {
+  &__img {
+    margin-bottom: 60px;
+    width: 100%;
+  }
+  &__text {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+}
+.disabled {
+  display: none;
+  @media (max-width: 768px) {
+    & {
+      display: block;
+    }
+  }
+}
+.carousel-control-next {
+  @media (max-width: 768px) {
+    & {
+      right: -20px;
+    }
+  }
+}
+.carousel-control-prev {
+  @media (max-width: 768px) {
+    & {
+      left: -20px;
+    }
+  }
+}
+/* HISTORY */
+.history {
+  background-image: url("../../image/history-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__bg {
+    padding: 52px 80px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+  }
+  &__title {
+    text-align: center;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+    color: #ffffff;
+  }
+  &__wrapper {
+    text-align: center;
+    max-width: 169px;
+    margin-bottom: 50px;
+    @media (max-width: 768px) {
+      & {
+        max-width: 120px;
+      }
+    }
+  }
+  &__round {
+    text-align: center;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    padding: 35px 0;
+    border-radius: 50%;
+    border: 6px solid #ffb700;
+    color: #ffffff;
+  }
+  &__text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__inner {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}

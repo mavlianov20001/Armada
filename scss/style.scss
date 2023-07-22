@@ -1,0 +1,26 @@
+@import "./libs/container";
+@import "./libs/bootstrap-reboot";
+@import "./libs/bootstrap-grid";
+
+/* 1 - PAGE */
+@import "./libs/variables";
+@import "./blocks/btns";
+@import "./libs/fonts";
+@import "./blocks/titles";
+@import "./blocks/header";
+@import "./blocks/hero";
+@import "./blocks/service";
+@import "./blocks/work";
+@import "./blocks/prod";
+@import "./blocks/price";
+@import "./blocks/clients";
+@import "./blocks/team";
+@import "./blocks/foot";
+
+/* 2 - PAGE  */
+@import "./blocks/gallery";
+@import "./blocks/advan";
+@import "./blocks/equip";
+@import "./blocks/about";
+@import "./blocks/contacts";
+@import "./blocks/portfolio";

@@ -1,0 +1,48 @@
+.btn-main {
+  padding: 12px 29px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  background: $main-color;
+}
+
+.btn-long {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 134px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  border: none;
+  border-radius: 3px;
+  color: #ffffff;
+  background: $main-color;
+}
+
+@media screen and (max-width: 992px) {
+  .btn-main {
+    display: none;
+  }
+}
+
+.btn-next {
+  @media (max-width: 768px) {
+    & {
+      right: 0;
+    }
+  }
+}
+.btn-prev {
+  @media (max-width: 768px) {
+    & {
+      left: 0;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.prod {
+  &__wrapper {
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 22px;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    @media (max-width: 459px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    img {
+      max-width: 100%;
+      object-fit: fill;
+    }
+  }
+}

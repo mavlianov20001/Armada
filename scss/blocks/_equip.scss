@@ -1,0 +1,26 @@
+.production {
+  &__images {
+    display: grid;
+    margin: 0 auto;
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 30px;
+    @media (max-width: 768px) {
+      & {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.equip {
+  &__text {
+    margin-bottom: 60px;
+  }
+  &__img {
+    height: 400px;
+  }
+}

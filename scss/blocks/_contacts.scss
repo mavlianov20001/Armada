@@ -1,0 +1,41 @@
+.contacts {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    max-width: 283px;
+    &:not(:last-child) {
+      margin-bottom: 36px;
+    }
+  }
+  &__title {
+    margin-bottom: 52px;
+    @media (max-width: 768px) {
+      & {
+        margin-bottom: 32px;
+      }
+    }
+  }
+  &__subtitle {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    color: #a4a4a4;
+  }
+}
+
+.map {
+  @media (max-width: 768px) {
+    & {
+      width: 400px;
+      height: 400px;
+    }
+  }
+}
